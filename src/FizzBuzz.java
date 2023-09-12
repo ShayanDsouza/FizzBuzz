@@ -6,12 +6,12 @@ class FizzBuzz {
     public static void main(String[] args) {
         int count = 1;
         while (count < 100) {
-            count = dofizzbuzz(count);
+            count = doFizzBuzz(count);
 
         }
     }
 
-    private static int dofizzbuzz(int count) {
+    public static int doFizzBuzz(int count) {
         boolean divisibleBy3 = count % 3 == 0;
         boolean divisibleBy5 = count % 5 == 0;
 
